@@ -6,17 +6,22 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		2699A4932CCFD06E00E5A0FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2699A48D2CCFD06E00E5A0FE /* Preview Assets.xcassets */; };
+		2699A4942CCFD06E00E5A0FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2699A48F2CCFD06E00E5A0FE /* Assets.xcassets */; };
+		2699A4962CCFD06E00E5A0FE /* GeometricFiguresApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699A4912CCFD06E00E5A0FE /* GeometricFiguresApp.swift */; };
+		2699A4992CD043B000E5A0FE /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699A4982CD043B000E5A0FE /* CircleView.swift */; };
+		2699A49C2CD0449000E5A0FE /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699A49B2CD0449000E5A0FE /* Circle.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		2699A47C2CCFCD8400E5A0FE /* GeometricFigures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeometricFigures.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2699A48D2CCFD06E00E5A0FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2699A48F2CCFD06E00E5A0FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2699A4912CCFD06E00E5A0FE /* GeometricFiguresApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometricFiguresApp.swift; sourceTree = "<group>"; };
+		2699A4982CD043B000E5A0FE /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		2699A49B2CD0449000E5A0FE /* Circle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		2699A47E2CCFCD8400E5A0FE /* GeometricFigures */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = GeometricFigures;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		2699A4792CCFCD8400E5A0FE /* Frameworks */ = {
@@ -32,7 +37,7 @@
 		2699A4732CCFCD8400E5A0FE = {
 			isa = PBXGroup;
 			children = (
-				2699A47E2CCFCD8400E5A0FE /* GeometricFigures */,
+				2699A4922CCFD06E00E5A0FE /* GeometricFigures */,
 				2699A47D2CCFCD8400E5A0FE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +48,42 @@
 				2699A47C2CCFCD8400E5A0FE /* GeometricFigures.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		2699A48E2CCFD06E00E5A0FE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2699A48D2CCFD06E00E5A0FE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2699A4922CCFD06E00E5A0FE /* GeometricFigures */ = {
+			isa = PBXGroup;
+			children = (
+				2699A4912CCFD06E00E5A0FE /* GeometricFiguresApp.swift */,
+				2699A49A2CD0446500E5A0FE /* Model */,
+				2699A4972CD0435A00E5A0FE /* Views */,
+				2699A4982CD043B000E5A0FE /* CircleView.swift */,
+				2699A48E2CCFD06E00E5A0FE /* Preview Content */,
+				2699A48F2CCFD06E00E5A0FE /* Assets.xcassets */,
+			);
+			path = GeometricFigures;
+			sourceTree = "<group>";
+		};
+		2699A4972CD0435A00E5A0FE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2699A49A2CD0446500E5A0FE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2699A49B2CD0449000E5A0FE /* Circle.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +100,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				2699A47E2CCFCD8400E5A0FE /* GeometricFigures */,
 			);
 			name = GeometricFigures;
 			packageProductDependencies = (
@@ -109,6 +147,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2699A4932CCFD06E00E5A0FE /* Preview Assets.xcassets in Resources */,
+				2699A4942CCFD06E00E5A0FE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2699A4992CD043B000E5A0FE /* CircleView.swift in Sources */,
+				2699A4962CCFD06E00E5A0FE /* GeometricFiguresApp.swift in Sources */,
+				2699A49C2CD0449000E5A0FE /* Circle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
